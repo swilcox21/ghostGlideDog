@@ -40,7 +40,7 @@ into the {body} of the default.hbs template --}}
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
 <div class="inner posts">
-
+    <h2 style="text-align: center;">Blog Posts</h2>
     <div class="post-feed">
         {{#foreach posts}}
             {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
@@ -49,4 +49,12 @@ into the {body} of the default.hbs template --}}
     </div>
     {{pagination}}
 </div>
+<div style="border-bottom: 1px solid grey; margin-top: 100px"></div>
+    <h2 style="text-align:center; margin-top:100px; margin-bottom:50px;">Meet the GlideDog Team</h2>
+    <a href="/bill/">
+        <div style="display: flex; justify-content: center">
+            <img style="width: 100px; margin-right: 50px;" src="https://www.w3schools.com/howto/img_avatar.png">
+            <h3 style="">Bill</h3>
+        </div>
+    </a>
 </main>
